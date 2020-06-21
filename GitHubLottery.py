@@ -3,7 +3,7 @@ import random
 
 repository = "david-pzh/A-Eye"
 github_username = ""
-github_passwoed = ""
+github_password = ""
 N = 8
 
 
@@ -11,7 +11,7 @@ def get_lucky_dogs():
     # First create a Github instance
     # g = Github()
     # Or you can use your GitHub username and password
-    g = Github(github_username, github_passwoed)
+    g = Github(github_username, github_password)
 
     # Get a repo by repo-name
     repo = g.get_repo(repository)
